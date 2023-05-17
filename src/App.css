@@ -1,0 +1,13 @@
+.App {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+body{
+
+ min-height: 75vh;
+ flex-grow: 1;
+
+}

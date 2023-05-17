@@ -1,0 +1,53 @@
+main{
+    background-image: url("../../../public/Diseño\ sin\ título.jpg");
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    padding-left: 2rem;
+    min-height: 80vh;
+}
+main img { 
+ margin-top: 1rem;
+min-width: 40vw;
+min-height: 50vh;
+align-self: center;
+border: 2px solid rgba(252,183,18,1);
+
+}
+
+.aboutMeContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+main h1{
+        text-align: center;
+        color: black;
+        margin-top: 10%;
+        text-shadow:
+            0 0 5px rgba(252,183,18,1),
+            0 0 10px rgba(252,183,18,1),
+            0 0 20px rgba(252,183,18,1),
+            0 0 40px rgba(252, 182, 18, 0.801),
+            0 0 80px rgba(252, 182, 18, 0.801),
+            0 0 90px rgba(252, 182, 18, 0.801),
+            0 0 100px rgba(252, 182, 18, 0.473),
+            0 0 140px  rgba(252, 182, 18, 0.473),
+            0 0 180px  rgba(252, 182, 18, 0.473);
+    
+}
+main p{
+    font-size: 20 px;
+    color:black;
+    text-align: center;
+    margin-top: 3rem;
+}
+@media (max-width:700px){
+    main{
+        flex-direction: column;
+    }
+    main img{
+        min-width: 75vw;
+    }
+ 
+}
